@@ -1,6 +1,4 @@
 mod ha;
-mod test;
-
 use ha::InitEntity;
 use rumqttc::{AsyncClient, Client, ClientError, ConnectionError, Event, EventLoop, Incoming, MqttOptions, QoS};
 use std::string::ToString;
